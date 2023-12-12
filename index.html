@@ -4,74 +4,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/work.css">
-  <link re="stylesheet" href="./css/contact.css">
-  <!-- Boxicons links -->
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./work.css">
+  <link rel="stylesheet" href="./contact.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-  <!---- Google fonts link --->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
     rel="stylesheet">
 
-  <title>Personal Protfolio</title>
+  <title>Home</title>
 </head>
 
 <body>
-  <!---- Header section ---->
-  <header>
-    <a class="logo" href="./index.html"><span>E</span>ddy/></a>
 
-    <ul class="navbar">
-      <li><a href="./index.html" class="h-active">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./work.html">My Works</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-    <!-- prolly edit this after  -->
-    <div class="menu-btn">
-      <span>INTRO</span>
-      <div class="bx bx-menu" id="menu-icon"></div>
+  <div class="header">
+    <h1><a href="./index.html"><span>E</span>ddy/></a></h1>
+    <div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./works.html">Works</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </div>
 
-  <!---- Home section -->
-  <section class="home">
-    <div class="home-text">
-      <span>Frontend Developer</span>
-      <br>
-      <h1>Edward Asare</h1>
-      <p>I am a frontend developer,
-        I bring a passion for creating visually appealing and user-centric web interfaces.
-        Proficient in HTML and CSS, I am committed to staying updated on industry trends and continuously
-        enhancing my skills.
-        With a keen eye for detail and a problem-solving mindset,
-        I am excited to contribute to dynamic and impactful web development projects.
+
+  <div class="section">
+    <img class="section-img" src="./img/mme.jpg">
+    <div class="mini-info">
+      <div class="i-ed">
+        <h1>Edward Asare</h1>
+        <p>FrontEndDeveloper</p>
+        <p>Accra,Ghana</p>
+      </div>
+
+      <div class="logo">
+        <img src="./img/HTML-logo.png">
+        <img src="./img/CSS-Logo.png">
+      </div>
+      <p class="i-about-me">
+        As a frontend developer, I am enthusiastic about crafting web interfaces that are visually engaging and
+        user-focused.
+        My proficiency in HTML and CSS is complemented by a dedication to staying abreast of industry trends, ensuring a
+        constant evolution of my skills. With a meticulous attention to detail and a proactive problem-solving approach,
+        I am eager to make meaningful contributions to dynamic and impactful web development projects.
       </p>
-      <div class="main-btn">
-        <a href="#" class="btn">Download CV</a>
-        <a href="./contact.html" class="btn two">Get in Touch</a>
+      <a href="./contact.html"><button class="get-in-touch">Get in touch</button></a>
+
+      <div class="share">
+        <p>Check out my socials</p>
+        <div class="social">
+          <a href="mailto:edwardthe3rdjnr@gmail.com"><i class='bx bxl-gmail'></i></a>
+          <a href="https://github.com/edwradthe3td/"><i class='bx bxl-github'></i></a>
+          <a href="https://www.instagram.com/knowthe3rd_/"><i class='bx bxl-instagram'></i></a>
+        </div>
       </div>
+
     </div>
 
-    <div class="home-img">
-      <img src="./img/me.jpg">
-    </div>
-  </section>
 
-    <div class="share">
-      <p>Check out my:</p>
-
-      <div class="social">
-        <a href="#"><i class='bx bx-x' ></i></a>
-        <a href="#"><i class='bx bxl-facebook-circle' ></i></a>
-        <a href="https://www.instagram.com/knowthe3rd_/"><i class='bx bxl-instagram' ></i></a>
-        <a href="#"><i class='bx bxl-whatsapp'></i></a>
-      </div>
-    </div>
+  </div>
 </body>
 
 </html>

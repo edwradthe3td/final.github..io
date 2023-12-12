@@ -4,75 +4,80 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/about.css">
-  <link rel="stylesheet" href="./css/index.css">
-  <link rel="stylesheet" href="./css/work.css">
-  <link rel="stylesheet" href="./css/contact.css">
-
-
-  <!-- Boxicons links -->
+  <link rel="stylesheet" href="./index.css">
+  <link rel="stylesheet" href="./about.css">
+  <link rel="stylesheet" href="./work.css">
+  <link rel="stylesheet" href="./contact.css">
   <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-  <!-- Google fonts link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,300&display=swap"
     rel="stylesheet">
-  <title>Get in Touch</title>
+
+  <title>Contact</title>
 </head>
 
 <body>
-  <!-- Header section -->
-  <header>
-    <a class="logo" href="./index.html"><span>E</span>ddy/></a>
-
-    <ul class="navbar">
-      <li><a href="./index.html" class="h-active">Home</a></li>
-      <li><a href="./about.html">About</a></li>
-      <li><a href="./work.html">My Works</a></li>
-      <li><a href="./contact.html">Contact</a></li>
-    </ul>
-    <!-- prolly edit this after  -->
-    <div class="menu-btn">
-      <span>INTRO</span>
-      <div class="bx bx-menu" id="menu-icon"></div>
+  <div class="header">
+    <h1><a href="./index.html"><span>E</span>ddy/></a></h1>
+    <div>
+      <ul>
+        <li><a href="./index.html">Home</a></li>
+        <li><a href="./about.html">About</a></li>
+        <li><a href="./works.html">Works</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+      </ul>
     </div>
-  </header>
+  </div>
 
-  <section>
-    <div class="c-contact">
-      <h1>Your Portal to the Digital <span>Enchantment</span></h1>
-      <p>Creating something new requires courage, creativity,
-        and a willingness to take risks.
-        It's about thinking differently, expressing ideas uniquely, and bravely leaping into the unknown. </p>
-    </div>
-    <hr>
+  <div class="c-section">
+    <div>
 
-    <div class="c-intouch">
-      <div class="get-in-touch">
-        <h1>Get in Touch!</h1>
-        <p>Please contact me via this form </p>
-        <p>Or you may use my email edwardthe3rdjnr@gmail.com</p>
-      </div>
+      <div class="c-first">
+        <div class="get-in-touch2">
+          <h1>Get In Touch!</h1>
+          <p>Please contact me via this form <br>Or <br>You may use my email edwardthe3rdjnr@gmail.com</p>
 
-      <div class="c-contact-form">
-        <div class="c-name">
-          <p>Name*</p>
-          <input type="text" placeholder="First name">
-          <input type="text" placeholder="Last name">
+          <div class="share">
+            <div class="social">
+              <a href="mailto:edwardthe3rdjnr@gmail.com"><i class='bx bxl-gmail'></i></a>
+              <a href="https://github.com/edwradthe3td/"><i class='bx bxl-github'></i></a>
+              <a href="https://www.instagram.com/knowthe3rd_/"><i class='bx bxl-instagram'></i></a>
+            </div>
+          </div>
         </div>
-        <p> Email*</p>
-        <input class="email-form" type="text" placeholder="Email">
-        <p>Message*</p>
-        <textarea rows="14" cols="80" style="outline: none; margin-top: 10px; border-radius: 5px;"></textarea>
 
-        <a href="./home.html"> <button class="btn btn-100">Submit</button></a>
+        <div class="c-name">
+          <label> Name*</label>
+          <div>
+            <input class="c-first-box" type="text" placeholder="First name">
+            <input class="c-first-box" type="text" placeholder="Last name ">
+          </div>
+
+          <div class="c-namee">
+            <label>Email*</label>
+            <div>
+              <input class="c-second-box" type="text" placeholder="Email">
+            </div>
+          </div>
+
+          <div class="c-namee">
+            <label>Message*</label>
+            <textarea class="c-third-box" rows="9" placeholder="Type your Message"></textarea>
+          </div>
+
+          <div class="c-buttons">
+           <a href="#"><button>Download CV</button></a> 
+           <a href="./index.html"><button style="background-color: transparent; border: 1px solid white; color: white;">Submit</button></a> 
+          </div>
+        </div>
+
+
 
       </div>
-
-
-  </section>
+    </div>
+  </div>
 
 </body>
 
